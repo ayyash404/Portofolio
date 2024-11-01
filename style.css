@@ -6,9 +6,7 @@
 }
 
 body {
-    background-image: url(back.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 .container-menu {
@@ -34,7 +32,6 @@ body {
     margin-top: 10px;
     font-size: 45px;
     font-family: "Poppins", sans-serif;
-    color: black;
 }
 
 .deskripsikiri,
@@ -48,12 +45,11 @@ body {
     margin-left: 100px;
     float: left;
     font-family: "Poppins", sans-serif;
-    color: black;
 }
 
 .isi {
     font-size: 25px;
-    color: black;
+    
 }
 
 .container-foter {
@@ -65,7 +61,6 @@ body {
 
 .fotter1 {
     font-family: "Poppins", sans-serif;
-    color: black;
     margin-left: 10px;
 }
 
@@ -73,7 +68,6 @@ body {
     font-size: 10px;
     margin-left: 51px;
     font-family: "Poppins", sans-serif;
-    color: black;
 }
 
 .foter-1,
@@ -87,7 +81,7 @@ body {
 
 .foter-2,
 .foter-3 {
-    border-left: 1px solid black;
+    border-left: 1px solid;
 }
 
 .gambar {
@@ -99,10 +93,6 @@ body {
     margin-top: 3px;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-}
-
-.p-foter a {
-    color: black;
 }
 
 .p-foter a:hover {
@@ -129,7 +119,6 @@ body {
 }
 
 .education1 {
-
     width: 1000px;
     margin-left: 30px;
     padding: 25px;
@@ -196,7 +185,7 @@ body {
     height: 500px;
     margin-left: 40px;
     border-radius: 250px;
-    border: 1px solid black;
+    border: 1px solid;
 }
 
 .container-ex {
@@ -216,7 +205,6 @@ body {
     margin-left: 32px;
     margin-top: 9px;
     padding: 8px;
-    border-color: black;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -244,11 +232,11 @@ body {
 
 .toyota,
 .fscm {
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 .ykjm {
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .toyota img,
@@ -270,12 +258,12 @@ body {
 .project2,
 .project3 {
     width: 450px;
-    height: 550px;
+    height: 500px;
     margin-left: 50px;
     padding: 30px 30px;
     float: left;
-    border: 1px solid black;
-    border-radius: 25%;
+    border: 1px solid;
+    border-radius: 10px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -385,6 +373,7 @@ section {
     font-size: 25px;
 }
 
+
 section img {
     height: 500px;
     margin-left: 30px;
@@ -410,58 +399,33 @@ section img {
     height: 600px;
 }
 
-section {
+.projectmix {
     display: flex;
-    justify-content: center;
 }
-
-.mix-descripsion1,
-.mix-descripsion2,
-.mix-descripsion3 {
-    margin-top: 170px;
+.projectmix table{
+    height: 400px;
+    width: 850px;
+}
+.des-mix{
+    margin-top: 200px;
+    padding: 40px;
     font-family: "Poppins", sans-serif;
 }
-
-.mix-descripsion1 {
-    margin-left: 60px;
+.Headmix {
+    font-size: x-large;
+    position:relative; top:0px; left:0px; margin-left:0px; margin-right:0px
 }
-
-.mix-descripsion1 h1,
-.mix-descripsion2 h1,
-.mix-descripsion3 h1 {
-    padding: 10px;
+.samadengan {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+    
+}
+.isihead {
+    font-size: x-large;
+    
     text-align: justify;
-    font-size: 30px;
-}
-
-.mix-descripsion3 {
-    font-weight: normal;
-}
-
-.mix-descripsion3 h2 {
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 25px;
-}
-
-.mix-h2-1 {
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.mix-h2-2 {
-    margin-top: 85px;
-    padding: 10px;
-}
-
-.mix-h2-3 {
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.mix-h2-4 {
-    margin-top: 85px;
-    padding: 10px;
+    
 }
 
 section img {
@@ -500,6 +464,25 @@ section img {
     font-family: "Poppins", sans-serif;
 }
 
+.partfiless {
+    display: flex;
+    justify-content: center;
+}
+
+.partfiless table{
+    margin-left: 20px;
+    padding: 10px;
+    border-collapse: collapse;
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+}
+.no {
+    height: 20px;
+    width: 40px;
+}
+.partname {
+    width: 300px;
+}
 .partfiless1 img {
     width: 450px;
     margin-top: 25px;
@@ -538,27 +521,20 @@ section img {
     margin: 20px;
     border-radius: 80px;
 }
-
 .container-activity {
     margin-top: 64px;
-    height: 77vh;
+    height: auto;
+    min-height: 77vh;
     align-content: center;
     font-family: "Poppins", sans-serif;
 }
-
 .seminar,
 .lomba {
-    border-left: 2px solid black;
+    border-left: 2px solid;
     margin: 40px;
     padding: 10px;
     text-decoration: none;
-    color: black;
     width: 900px;
-}
-
-.seminar a,
-.lomba a {
-    color: black;
 }
 
 .seminar a:hover,
@@ -577,7 +553,6 @@ section img {
         text-align: center;
     }
     .container-menu img{
-        background-color: aqua;
         margin: clamp(auto);
         height: clamp(15rem, 20vw, 30rem);
     }
@@ -588,13 +563,13 @@ section img {
     .deskripsikanan,
     .deskripsikiri,
     .deskripsitengah {
-        height: 500px;
-        width: 800px;
+        height: clamp(30rem, 8vw, 30rem);
+        width: clamp(50rem, 8vw, 50rem);
         margin-left: 40px;
         background-color: aqua;
     }
     .isi {
-        font-size: 50px;
+        font-size: clamp(1rem, 8vw, 3rem);
     }
 
 
@@ -643,38 +618,36 @@ section img {
     }
 
     .container-des {
-        float: none;
         height: auto;
         width: auto;
     }
-
+    .education1, .education2{
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
     .des-smk,
     .des-kuliah {
         align-items: center;
         text-align: center;
     }
-
     .smk,
     .des-smk {
         float: none;
     }
-
     .kuliah,
     .des-kuliah {
         float: none;
     }
-
     .container-foter {
         height: auto;
         width: auto;
     }
-
     .container-about {
         width: auto;
         height: auto;
         margin: auto;
     }
-
     .deskripsiabout,
     .deskripsiabout1 {
         padding: auto;
@@ -682,18 +655,15 @@ section img {
         width: auto;
         float: none;
     }
-
     .deskripsiabout h2 {
         margin: auto;
         width: auto;
         height: auto;
         font-size: medium;
     }
-
     .deskripsiabout1 img {
         height: 300px;
     }
-
     .container-ex {
         height: auto;
         width: auto;
@@ -701,7 +671,6 @@ section img {
         text-align: center;
         align-items: center;
     }
-
     .toyota,
     .ykjm,
     .fscm {
@@ -709,13 +678,11 @@ section img {
         width: auto;
         margin: 10px;
     }
-
     .container-project {
         height: auto;
         width: auto;
         margin-top: 64px;
     }
-
     .project1,
     .project2,
     .project3 {
@@ -725,7 +692,6 @@ section img {
         text-align: center;
         align-content: center;
     }
-
     .project1 h1,
     .project2 h1,
     .project3 h1 {
@@ -746,12 +712,14 @@ section img {
     .container-crank {
         width: auto;
         height: auto;
-        margin-top: 64px;
+        
     }
     .container-crank img {
+        margin-top: 64px;
         height: 350px;
     }
     .crank-deskripsion h1 {
+        margin: auto;
         font-size:x-large;
     }
     .crank-deskripsion h2 {
@@ -762,10 +730,22 @@ section img {
         margin: auto;
     }
 
+    section {
+        margin: auto;
+        height: auto;
+    
+    }
 
 
 
-
+    .container-activity {
+        height: auto;
+        
+    }
+    .seminar, .lomba{
+        height: auto;
+        width: auto;
+    }
 
 }
 
@@ -803,5 +783,11 @@ section img {
         width: 100px;
         margin-top: 5px;
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .foter-2, .foter-3 {
+        border: none;
     }
 }
