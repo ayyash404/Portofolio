@@ -18,12 +18,13 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
         <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album-rtl/">
-
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
 
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
       
         <link href="bootstrap.rtl.min.css" rel="stylesheet">
+        <link href="carousel.css" rel="stylesheet">
         <style>
             .bd-placeholder-img {
               font-size: 1.125rem;
@@ -174,93 +175,106 @@
       </div>
      <!-- theme end -->
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
-        <div class="container-fluid">
-            <!-- logo -->
-            <a class="navbar-brand fonts-Poppins,sans-serif fw-bold fs-3" href="home.html">MUHAMMAD AYYASH</a>
-            <!-- toggle -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            <!-- slide bar -->
-            <div 
-                class="slidebar offcanvas offcanvas-start" 
-                tabindex="-1" 
-                id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel"
-            >
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" 
-                    id="offcanvasNavbarLabel">MUHAMMAD AYYASH</h5>
-                    <button 
-                        type="button" 
-                        class="btn-close" 
-                        data-bs-dismiss="offcanvas" 
-                        aria-label="Close">
-                </button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fonts-Poppins,sans-serif fw-bold fs-5">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="education.html">Educations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Intership Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="project.html">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="activity.html">Activity</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Navigation Bar End -->
+    <nav class="navbar navbar-expand-lg navbar-dark na bg-dark shadow-sm fixed-top">
+      <div class="container-fluid">
+          <!-- logo -->
+          <a class="navbar-brand navbar-dark fonts-Poppins,sans-serif fw-bold fs-4" 
+              href="home.html">MUHAMMAD AYYASH</a>
+          <!-- toggle -->
+          <button class="navbar-toggler shadow-none border-0" 
+              type="button" 
+              data-bs-toggle="offcanvas" 
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" 
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- side bar -->
+          <div class="sidebar offcanvas offcanvas-start navbar-dark bg-dark " 
+              tabindex="-1" 
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+          <!-- sidebar-header -->
+              <div class="offcanvas-header text-white border-bottom">
+                  <h5 class="offcanvas-title navbar-dark fonts-Poppins,sans-serif fw-bold fs-4" 
+                      id="offcanvasNavbarLabel">MUHAMMAD AYYASH</h5>
+                  <button 
+                      type="button"
+                      class="btn-close btn-close-white"
+                      color="white" 
+                      data-bs-dismiss="offcanvas" 
+                      aria-label="Close">
+                  </button>
+              </div>
+          <!--sidebar-body  -->
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fonts-Poppins,sans-serif fw-bold fs-9">
+                      <li class="nav-item mx-2">
+                          <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                          <a class="nav-link" href="about.html">About me</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                          <a class="nav-link" href="education.html">Educations</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                          <a class="nav-link" href="experience.html">Intership Experience</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                          <a class="nav-link active" href="project.html">Project</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                          <a class="nav-link" href="activity.html">Activity</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </nav>
+  <!-- Navigation Bar End -->
 
     <!-- Menu -->
-    <div class="container-jaw">
-            <img src="Jaw.png">
-            <table class="des-mix">
-                <tr>
-                    <th class="Headmix">Role</th>
-                    <th class="samadengan">:</th>
-                    <td class="isihead">Personal Project</td>
-                </tr>
-                <tr>
-                    <th class="Headmix">Date</th>
-                    <th class="samadengan">:</th>
-                    <td class="isihead">2024</td>
-                </tr>
-                <tr>
-                    <th class="Headmix">Skill</th>
-                    <th class="samadengan">:</th>
-                    <td class="isihead">Microsoft excel, Mechanical design, CAD (Solidworks)</td>
-                </tr>
-                <tr>
-                    <th class="Headmix">Aim</th>
-                    <th class="samadengan">:</th>
-                    <td class="isihead"> Made a 60 liter capacity mixing machine that can make human works easier.
-                        Especially in making food
-                        that requires stirring in the manufacturing process</td>
-                </tr>
-                <tr>
-                    <th class="Headmix">Result</th>
-                    <th class="samadengan">:</th>
-                    <td class="isihead"> Design and bulid a mixing machine with an electric motor as the main driver, where
-                        the kneading blade is
-                        equpped with a silicone thet can scrape the dought from both the side and bottom</td>
-                </tr>
-            </table>
-    </div>
+    <div class="row featurette">
+
+      <div class="col-md-5 order-md-1">
+          <img src="Jaw.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+          </img>
+      </div>
+      <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Jaw</h2>
+          <table class="des-mix">
+            <tr>
+                <th class="Headmix">Role</th>
+                <th class="samadengan">:</th>
+                <td class="isihead">Personal Project</td>
+            </tr>
+            <tr>
+                <th class="Headmix">Date</th>
+                <th class="samadengan">:</th>
+                <td class="isihead">July 2023</td>
+            </tr>
+            <tr>
+                <th class="Headmix">Skill</th>
+                <th class="samadengan">:</th>
+                <td class="isihead">Mechanical design, CAD (Solidworks)</td>
+            </tr>
+            <tr>
+                <th class="Headmix">Aim</th>
+                <th class="samadengan">:</th>
+                <td class="isihead">Prove how my skills have improved since Crankshaft project</td>
+            </tr>
+            <tr>
+                <th class="Headmix">Result</th>
+                <th class="samadengan">:</th>
+                <td class="isihead"> Succesfully design 9 different jaw part and combined them into a single assembly</td>
+            </tr>
+        </table>
+      </div>
+  </div>
+    <hr class="hr-blurry">
     <div class="partfiles">
         <div class="partfiles1-jaw">
             <h1>Part files</h1>
